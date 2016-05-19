@@ -1,0 +1,18 @@
+{
+  "name": "kata",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wix-web-build unit",
+    "start": "wix-web-build start"
+  },
+  "wix": {
+    "entryFile": "./app/app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wix-web-build": "latest"
+  }
+}
